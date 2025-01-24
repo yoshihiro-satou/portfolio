@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="@acab_reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="big-bg">
+        <header>
+            <div class="header-nav">
+                <h1><img class="logo" src="image/My_Portfolio.png" alt="my-portfolio"></h1>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                </label>
+                <nav>
+                    <button class="close-nav">×</button>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#message">Message</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+            <main>
+                <section class="title">  
+                        <p class="slide-1">WELCOME</p>                          
+                        <p class="slide-2">MY WEBSITE</p>
+                        <p class="sub-title">irassyaimase yukkurisitettene!
+                        </p>
+                </section>
+
+                <section id="about">
+                    <div class="container">
+                        <div class="about-flex">
+                            <div class="profile-pic">
+                                <img src="image/顔写真.jpg" alt="my-Name">
+                            </div>
+                            <div class="intro">
+                                <h2 id="Self-introduction">About (Self-introduction)</h2>
+                                <p>
+                                宮城県在住のWEBコーダーyoshihirockです。上京し専門学校を卒業後、
+                                芸能事務所に研究生として所属。売れないながらも舞台や映像作品などに参加していました。
+                                </p>
+                                <p>
+                                30台になり某ドラックストアに就職し店長を経て、食品部門のバイヤーになりました。小売の花形！
+                                刺激的でプレッシャーの大きな日々を経験しました。（ここで高度なPC操作やマーケティングを勉強しました）
+                                </p>
+                                <p>
+                                宮城に帰ってきて、副業に興味を持ちWordPressでブログ活動を行ったり、ドロップシッピング（無在庫ネットshop）で
+                                サイト運営、Yahoo出店などの経験があります。現在は全て辞め、一番面白かったデザインからのプログラミングに集中して
+                                おります。
+                                </p>
+                                <p>転職先を探すかフリーランスで攻めるか悩みながら、React中心に学習を進めています。
+                                    もし、ご興味やご相談がございましたらご連絡いただけるとうれしいです。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>  
+
+                <section id="service">
+                    <div class="container">
+                        <h2 class="section-title">Service</h2>
+                        <div class="cards">
+                            <div class="card" data-card-id="1">
+                                <svg class="card-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.39 113.39"><defs><style>.cls-1{fill:none;}</style></defs><g id="レイヤー_2" data-name="レイヤー 2"><g id="design"><polygon points="69.41 90.76 69.41 90.76 69.41 90.76 69.41 90.76"/><path d="M53.14,63.3v44.41h4.25V62.24A36.66,36.66,0,0,1,53.14,63.3Z"/><path d="M96.34,32.92a8.49,8.49,0,0,0-10.09-6.53l-13.86,3A8.48,8.48,0,0,0,66,35.43a.41.41,0,0,0,0,.09h0c-3.25,9.17-10.86,16.78-20.6,18.64V46.6a8.51,8.51,0,0,0-8.5-8.5H17a8.51,8.51,0,0,0-8.5,8.5V85H19.86v22.68H34V85H45.34V61.22a35.82,35.82,0,0,0,23.4-8.42C69,54,73.54,75.14,73.94,77l8.27-1.78v32.46H96.38V72.22l8-1.73Z"/><path d="M55.26,44a4.25,4.25,0,0,0,4.25-4.25V34.09a4.25,4.25,0,0,0-8.5,0v5.66A4.25,4.25,0,0,0,55.26,44Z"/><circle cx="26.92" cy="25.53" r="8.5"/><circle cx="73.52" cy="15.85" r="8.5"/><g id="waku"><rect class="cls-1" width="113.39" height="113.39"/></g></g></g></svg>
+                                <div>
+                                    <h3>ヒアリングとプラン立て</h3>
+                                    <button class="more-btn">more</button>
+                                    <ul class="details">
+                                        <li>まずはお客様のニーズや目的をしっかりとお伺いします。</li>
+                                        <li>どんなWEBサイトを作りたいのか、一緒に考えて最適なプランを立てましょう。</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card" data-card-id="2">
+                                <svg class="card-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.39 113.39"><defs><style>.cls-1{fill:none;}</style></defs><g id="レイヤー_2" data-name="レイヤー 2"><g id="design"><path d="M86.52,56.48A22.69,22.69,0,0,0,68,34.29h0V76.54H86.44v-.12l.09,0C86.54,73.84,86.53,58.59,86.52,56.48Z"/><polygon points="58.08 42.47 51.01 34.2 51.01 76.54 65.14 76.54 65.14 34.2 58.08 42.47"/><path d="M48.18,34.26a22.41,22.41,0,0,0-8.75,3.59S24.51,48.51,24.5,48.51l18.76,28h4.92Z"/><polygon points="22.19 50.15 19.06 52.39 26.34 76.54 36.59 71.69 22.19 50.15"/><polygon points="17.01 79.37 17.01 85.07 25.5 85.07 25.5 104.88 90.7 104.88 90.7 85.07 99.21 85.07 99.21 79.37 17.01 79.37"/><circle cx="58.1" cy="19.01" r="10.63"/><g id="waku"><rect class="cls-1" width="113.39" height="113.39"/></g></g></g></svg>
+
+                                <div>
+                                    <h3>デザイン制作</h3>
+                                    <button class="more-btn">more</button>
+                                    <ul class="details">
+                                        <li>サイトのイメージやデザインについて、わかりやすいイメージを提案させていただきます。</li>
+                                        <li>写真やイラストなど、サイトを華やかに演出するための素材作りも行います。</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card" data-card-id="3">
+                                <svg class="card-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.39 113.39"><defs><style>.cls-1{fill:none;}</style></defs><g id="レイヤー_2" data-name="レイヤー 2"><g id="design"><path d="M87.84,57.08c-2.37-12.41-13.9-21-25.7-22.69L52.59,53.48,50.4,51.53,54.67,43l-5.4-8.62C26.6,37.68,16.1,59.56,26.72,79.76c-.84,7.28-3.91,16-7,24l36.89-12,21.56,10.71,20-40.28ZM47.91,67.23a5.46,5.46,0,0,1-2.84,1.62l21,18.82C59.2,85.23,53,81.09,47.33,76.41l-5.27-1.17c.92,4.51-4.38,8-8.19,5.61a5.47,5.47,0,0,1,4.18-10h0l4.59,1c-2-2.3-4.15-5-4.21-8h0a5.47,5.47,0,1,1,9.47,3.39Zm3.49,1.58a50,50,0,0,0,16.23-14l9.68,4.81c-3.35,11.33-1.8,21.48.87,33.25Z"/><path d="M38.72,74.5a2.63,2.63,0,0,0-4.19,3.16A2.63,2.63,0,1,0,38.72,74.5Z"/><path d="M46,61.94a2.63,2.63,0,1,0,.49,2h0A2.74,2.74,0,0,0,46,61.94Z"/><circle cx="55.56" cy="19.14" r="10.63"/><g id="waku"><rect class="cls-1" width="113.39" height="113.39"/></g></g></g></svg>
+
+                                <div>
+                                    <h3>コーディング</h3>
+                                    <button class="more-btn">more</button>
+                                    <ul class="details">
+                                        <li>HTMLやCSS、JavaScriptを使って、デザインどおりのサイトを実際に作り上げます。</li>
+                                        <li>スマートフォンでも見やすいレスポンシブ対応も行います。</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card" data-card-id="4">
+                                <svg class="card-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.39 113.39"><defs><style>.cls-1{fill:none;}</style></defs><g id="レイヤー_2" data-name="レイヤー 2"><g id="design"><path d="M63.33,50.35a31.48,31.48,0,0,0,7.37,9.36L68,67,82.57,64.3l1-2.63c.87-2.32,1-6.37-3.38-8-10.43-4-14.11-10.41-14.49-19.86L61.27,33A26.08,26.08,0,0,0,63.33,50.35Z"/><path d="M107.76,76.9l-10.3,5-8.9-12.13a6.6,6.6,0,0,0-7.15-2.34c-3.75.65-16.32,3-19.87,3.65a6.34,6.34,0,0,0-5.2,6.45c-.24,8.83-5.49,16.93-14.14,19.62l.73,4.41c10.36-1,19-8.58,22.49-18.27l8.91-1.63L71.62,89a4.09,4.09,0,0,0,1.85,5l16.21,9L93,98.25,82.07,89.18l3.16-5.25,7.33,6.83c1.92,1.78,4.37,2.21,6.53.32s11.28-9.87,11.28-9.87Z"/><path d="M35.58,46.47c5.18-.11,6.63,5.71,6.08,11.14l4.25.55s1.91-6,1.09-11.25c-.69-4.38-5.3-8.52-11.33-9.2a70.42,70.42,0,0,0-9.49-.61c-1.86,0-4.47,0-6.68-1.64-4.15-3.16-6.61-11-4.54-18l-3.91-1.73C5.91,25.29,8.53,37.27,15.5,45.31V61.78S8,64.52,5.48,65.44a3.81,3.81,0,0,0-2.39,5.22L9.73,88.48,15.14,87,12.59,73.07l11.13-2L26.64,102l5.61,0c1-9.32,2.8-26.23,3.34-36.22Z"/><path d="M83.45,36.7a7.09,7.09,0,1,0,7.09,7.08A7.09,7.09,0,0,0,83.45,36.7Z"/><circle cx="26.18" cy="27.42" r="7.09"/><path d="M46.55,73.22a7.09,7.09,0,1,0,7.09,7.09A7.09,7.09,0,0,0,46.55,73.22Z"/><g id="waku"><rect class="cls-1" width="113.39" height="113.39"/></g></g></g></svg>
+
+                                <div>
+                                    <h3>運用サポート</h3>
+                                    <button class="more-btn">more</button>
+                                    <ul class="details">
+                                        <li>完成したサイトの更新や修正などのメンテナンスも行います。</li>
+                                        <li>アクセス解析などのデータ分析を行い、より良いサイトにするための提案もさせていただきます。</li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+
+                <section id="message">    
+                    <div class="container">
+                        <h2 class="section-title">Message</h2>
+                        <div class="message-flex">
+                            <div class="message-content">
+                                <h3>ご依頼をお考えの方へ</h3>
+                                <p>
+                                    特にスクールなどには通っていませんでしたが、多数の書籍やUdemyなどのネット教材で
+                                    学習しており、いろいろなサイトを参考に模写コーディングを行ってきました。
+                                </p>
+                                <p>
+                                    主にサイトに動きを付けたり、アニメーションを組むこともできますので、
+                                    躍動感やインパクトを付けたいなどご相談ください。
+                                </p>
+                                <p>
+                                    なにより、一緒にサイトを育てていきませんか！
+                                </p>
+                            </div>
+                            <div class="message-image vibrate-1">
+                                <img src="./image/4 (1).svg" alt="SVG Image">
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section id="contact">
+                    <div class="container">
+                            <h2 class="section-title">Contact</h2>
+                            <p>SNSからDMにてご連絡ください</p>
+                            <div id="x-icon">
+                                <a href="https://x.com/zenyuu1978">
+                                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="100%" height="100%"><path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"/></svg>
+                                </a> 
+                            </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="footer">
+                    &copy; 2025 yoshihirock. All rights reserved.
+                </div>
+            </footer>  
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
