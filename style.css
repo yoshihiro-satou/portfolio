@@ -13,7 +13,7 @@ h2 {
   font-size: 2.5rem;
 }
 .big-bg {
-  background-image: url(./image/AI高層マンション.jpg);
+  background-image: url("https://yoshihiro-satou.github.io/portfolio/image/AI高層マンション.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
